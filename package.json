@@ -1,0 +1,23 @@
+{
+  "name": "jorguz",
+  "version": "1.0.0",
+  "description": "jorguz.nl",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "J.L.C. Guzak",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {}
+}
