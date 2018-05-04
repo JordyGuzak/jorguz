@@ -60,5 +60,3 @@ typings/
 # Ignore SSL directory
 SSL/
 
-# Ignore PHP directory
-src/php/

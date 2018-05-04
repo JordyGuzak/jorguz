@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>jorguz</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav fixed">
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section class="section home-section" id="home">
+        <header class="home center">
+            <h1>JORDY GUZAK</h1>
+            <p>A software-engineer with a love for science and technology.</p>
+        </header>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+        <div class="about center">
+            <h1>About</h1>
+            <p>Hello, welcome to my website! I am currently graduating as a Software-Engineer from Fontys University Eindhoven,
+                The Netherlands.</p>
+            <p>In the past few years I have gained a lot of experience in software development by working on projects from and
+                alongside my education.</p>
+            <p>During the day I am always eager to learn, especially when it comes to things related to software, technology
+                and science.</p>
+            <p>At night I like to look up at the skye and wonder about the unknown.</p>
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills-section" id="skills">
+        <div class="skills">
+            <div class="languages">
+                <h1>Languages</h1>
+            </div>
+            <div class="frameworks">
+                <h1>Frameworks / Engines</h1>
+                <ul>
+                    <li>Java Spring Framework</li>
+                    <li>Angular</li>
+                    <li>Electron</li>
+                    <li>Mongoose</li>
+                    <li>Unity3D</li>
+                    <li>OpenGL4</li>
+                </ul>
+            </div>
+            <div class="tools">
+                <h1>Tools</h1>
+                <ul>
+                    <li>Git</li>
+                    <li>Maven</li>
+                    <li>Nodejs</li>
+                    <li>Jenkins</li>
+                    <li>Windows</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section experience-section" id="experience">
+        <div class="experiences">
+            <h1>Relevant Experience</h1>
+            <div class="experience box">
+                <img src="assets/img/experience/prysmian.png" alt="">
+                <div class="details">
+                    <p>Intern - Software Engineering</p>
+                    <p>Prysmian Group Eindhoven</p>
+                    <p>aug. 2016 - jan. 2017</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section education-section" id="education">
+        <div class="educations">
+            <h1>Educations</h1>
+            <div class="education box">
+                <img src="assets/img/education/fontys.png" alt="">
+                <div class="details">
+                    <p>Software-Engineering</p>
+                    <p>Fontys University Eindhoven</p>
+                    <p>2013 - 2018</p>
+                </div>
+            </div>
+            <div class="education box">
+                <img src="assets/img/education/logo-roc-nederland.svg" alt="">
+                <div class="details">
+                    <p>Business Administration</p>
+                    <p>ROC Eindhoven School for Economics &amp; Administration</p>
+                    <p>2009 - 2012</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section portfolio-section" id="portfolio">
+        <div class="portfolio">
+            <h1>Coming soon!</h1>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+        <div class="contact">
+            <h1>Contact</h1>
+            <form class="contact-form" action="php/contact.php" method="post">
+                <label for="contact_name">Your name</label>
+                <input type="text" name="name" id="contact_name">
+                <label for="contact_email">Your email address</label>
+                <input type="email" name="email" id="contact_email">
+                <label for="contact_subject">Subject</label>
+                <input type="text" name="subject" id="contact_subject">
+                <label for="contact_message">Message</label>
+                <textarea name="message" id="contact_message" cols="30" rows="10"></textarea>
+                <input class="btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <script type="module" src="js/component.js"></script>
+    <script type="module" src="js/language.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
